@@ -1,8 +1,3 @@
-import asyncio
-from telethon import events, utils
-from telethon.tl import types
-from .. import loader, utils
-
 @loader.tds
 class GoSpamMod(loader.Module):
     """Модуль для автоматического отправления 'го' каждые 15 секунд в @MonacoGamebot"""
